@@ -11,10 +11,10 @@
 * body : 웹 문서 내용 (실제 대부분의 서비스가 들어가는 본문)
 
 ## 구조 태그 속성
-*`lang="ko"` html 문서 언어 설정
-*`charset="utf-8"` 다국어 문자열 성정
-*`description` 사이트 요약 설명
-*`keywords` 사이트 검색 키워드 설정
+* `lang="ko"` html 문서 언어 설정
+* `charset="utf-8"` 다국어 문자열 설정
+* `description` 사이트 요약 설명
+* `keywords` 사이트 검색 키워드 설정
 
 ## 속성 문법
 `<태그 속성="값" 속성="값"></태그>`
