@@ -59,8 +59,6 @@
 ## 특수문자 태그
 * `&`시작 `;` 종료 
 * `&copy;` & 시작과 coptyright의 copy ; 종료
-* `&lt;`
-* `&gt;`
 
 ## 주소태그
 * `address` footer 영역에 들어가는 본 사이트 주소
