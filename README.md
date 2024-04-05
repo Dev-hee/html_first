@@ -79,3 +79,17 @@
 * `../doll.kpg` : 상위 폴더로 한 단계 나가서 doll.jpg 파일 찾기
 * `../a/doll.jpg` : 상위 폴더로 한 단계 나가고, a 폴더로 들어가서 doll.jpg 파일 찾기
 * `./b/doll.jpg` : 현재위치에서 b 폴더로 들어가서 doll.jpg 파일 찾기
+
+## 바로가기 링크란?
+* 단순 페이지 이동이 아닌 특정 위치로 스크롤 이동하는 바로가기 기능
+
+## 바로가기 링크 제작 순서 및 주의사항
+1. 이동 목적지에 가장 가까운 태그에 `id` 적용하기
+2. 링크 대상에 `#id` href속성값에 담기
+* 주의사항 : #은 아이디 이동 링크에만 사용하기
+
+## 파비콘 적용 순서
+* 파비콘 크기로 이미지 다운받거나 편집하기
+* html에서 head 안에 link태그로 `favicon` href주소 연결하기
+* `<link rel="shortcut icon" href="파비콘.ico 경로" type="image/x-icon">`
+* `<link rel="icon" href="파비콘.ico 경로" type="image/x-icon">`
