@@ -93,3 +93,10 @@
 * html에서 head 안에 link태그로 `favicon` href주소 연결하기
 * `<link rel="shortcut icon" href="파비콘.ico 경로" type="image/x-icon">`
 * `<link rel="icon" href="파비콘.ico 경로" type="image/x-icon">`
+
+## 이미지태그 `img` (inline)
+* '내용'을 제공하는 이미지 분류
+* 의미있는 이미지는 시각장애인에게 전달해야하는 내용을 담고 있습니다. 
+* 대체 텍스트 alt 속성을 필수로 해야합니다.
+* src 이미지 경로 속성의 값으로는 상대경로 방식으로 작성하는 것을 권장합니다.
+* `<img src="url" alt="">`
