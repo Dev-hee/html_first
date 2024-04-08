@@ -100,3 +100,41 @@
 * 대체 텍스트 alt 속성을 필수로 해야합니다.
 * src 이미지 경로 속성의 값으로는 상대경로 방식으로 작성하는 것을 권장합니다.
 * `<img src="url" alt="">`
+
+## figure, figcaption 태그
+* figure 문서 안 사진을 감싸는 틀
+* figcaption 사진의 캡션을 정의할 수 있습니다.(캡션설명)
+
+## 비디오태그
+* video태그는 블록 요소입니다.
+* video는 웹 사이트에 출력되는 영상을 재생하는 역할을 합니다.
+* video작성 시 추가속성 없이 태그만 작성한다면 자동재생되지 않고 첫 화면에서 정지한 모습을 볼 수 있습니다.
+* //비디오를 작성하는 방법1
+`<video src="동영상경로"></video>`
+* 비디오를 작성하는 방법2
+`<video><source src="동영상경로" type="동영상타입1"><source src="동영상경로" type="동영상타입2"></video>`
+* https://www.ss(ss를 붙인다)youtube.com/embed/tbEGIUV-iho
+유튜브 경로 앞에 ss를 붙여서 유튜브를 다운로드 할 수 있다.
+**<iframe src="https://www.youtube.com/embed/동영상주소?속성=값&속성=값">**
+**autoplay=1 자동재생 0,1**
+**mute=1 음소거 0,1**
+**loop=1 반복재생 0,1**
+**playlist=동영상주소 (반복재생 1 설정 시 동시 필수값)**
+**controls=1 하단 컨트롤 표시 0,1**
+
+## class, id 많이 사용하는 키워드
+* Wrapper, Wrap, area 전체 묶는 영역
+* contents, container 중~소 묶는 영역
+* group, g 간단한 소그룹 영역
+* top, btm, left, right 레이아웃 방향을 의미하는 키워드
+* 예) 의미있는단어_영역명 
+* 예시 : product_wrap, item_area, price_g, main_contents, top_btn
+
+## div,span 그룹태그
+## div
+* 인라인 블록이 2개이상 형제일 경우 묶어주는 태그그룹
+* 레이아웃 기분 1행에 2열이상 배치된 이듀.
+
+## span
+* 인라인 2개이상 형제일 경우 묶는 그룹태그.
+* 의미 업슨 디자인 요소 인라인 처리 필요시 사용.
