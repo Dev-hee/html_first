@@ -141,17 +141,21 @@
 ## html5 semantic tag
 ### semantic tag란?
 * HTML5에서 생성된 의미있는(semantic) 태그 입니다.
+
 ### header
 * 로고 및 내비게이션을 묶어주는 웹 사이트 레이아웃 태그입니다.
 * 제목, 로고, 검색 폼, 작성자 이름 등의 요소도 포함할 수 있습니다.
+
 ### nav
 * 로고 및 웹사이트 주요 내비게이션을 묶어주는 웹 사이트 레이아웃 태그입니다.
 * 다른 페이지로의 링크를 보여주는 구획을 나타냅니다. 자주 쓰이는 예제는 메뉴, 목차, 색인입니다.
+
 ### gnb, lnb, snb
 * 1. **gnb(global navigation bar)
 - nav 묶이는 대상**
 * 2. **lnb(local navigation bar)**
 * 3. **snb(side navigation bar)**
+
 ## ul,ol,li
 * 목록태그는 모두 block 특징으로 이루어져 있습니다.
 * ul : 목록(li)의 순서와 연관 없을 경우 ul을 사용합니다. 
@@ -159,9 +163,11 @@
 * ol : 순서가 있는 목록 / 2개 이상의 목록(li) 구조를 묶어주는 그룹태그
 * li : 순서가 없는 목록
 * 순차/비순차 목록 사용 시 다른 블록 및 인라인 태그를 사용하려면 반드시 li 안 자식위치로 배치해야합니다.
+
 ## details, summary
 * "열림" 상태일 때만 내부 정보를 보여주는 정보 공개 위젯을 생성합니다.
 * 요약이나 레이블은 <summary> 요소를 통해 제공할 수 있습니다.
+
 ## footer, mark, main, time
 * `footer` :
 - 웹페이지 가장 하단에 위치합니다.
@@ -176,3 +182,8 @@ ex) <time datetime="2022-12-25"></time>
 ex) <time datetime="12-25"></time>
 ex) <time datetime="13:00"></time>
 ex) <time datetime="PT1H30M"></time>
+
+## dl,dt,dd 정의형 목록태그
+* dl : 정의형 제목과 내용을 묶는 그룹입니다.
+* dt : <dt>정의형 제목</dt> dl안 자식으로 배치되며 제목을 의미, dt는 dd 기준 항상 먼저 시작합니다.
+* dd : <dd>정의형 내용</dd> dl안 자식으로 배치되며 dt의 다음 형제 요소로 배치되거나 기존 dd의 형제로도 배치될 수 있습니다.
